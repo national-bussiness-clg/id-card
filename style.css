@@ -13,6 +13,7 @@ body
     justify-content: center;
     background-image: url(marbel\ image.jpg);
     background-size: cover;
+    overflow: hidden;
 }
 .sheet
 {
@@ -28,6 +29,7 @@ body
     /* backdrop-filter: blur(1.1px); */
     color: whitesmoke;
     transition: all 0.2s ease-out 0.1ms;
+     overflow: hidden;
 }
 .sheet:hover
 {
